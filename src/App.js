@@ -21,11 +21,11 @@ function App() {
       <Header isModalOpen={isModalOpen} modalFunction={modalFunction}/>   
       {isModalOpen && <Modal/> }
       {!isModalOpen && <Hero/> }      
-      {/* {!isModalOpen && <HealthcareInvestor/>}
+      {!isModalOpen && <HealthcareInvestor/>}
       {!isModalOpen && <HealthcareExperience/>}
       {!isModalOpen && <HealthcareExpertise/>}
-      {!isModalOpen && <Investing/> }
-      {!isModalOpen && <Footer/> } */}      
+      {/* {!isModalOpen && <Investing/> } */}
+      {/* {!isModalOpen && <Footer/> }     */}
     </div>
 
   );

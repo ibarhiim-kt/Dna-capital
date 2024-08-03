@@ -119,7 +119,7 @@ export default function Hero() {
         </div>
     </div>
     
-    <div className='absolute top-[84.3%] max-1440:top-[92%] max-1280:top-[83.9%] 
+    <div className='absolute max-1440:top-[92%] max-1280:top-[83.9%] 
     max-1024:top-[94%] max-845:top-[92.4%] max-647:top-[94%] max-524:top-[95%] max-411:top-[93.2%]'>
     {/* h-800:text-[12px] h-800:mb-[24px] h-700:text-[11px] h-700:mb-[22px] h-650:text-[9px] h-650:mb-[20px] h-600:mb-[18px] h-600:text-[8px] h-600:tracking-[3.5px] */}
       <div className=" text-[14px]  text-[white] tracking-[3.5px]  transition-opacity duration-500 hero-button-gsap font-graphik mb-[31px] max-1440:text-[12px] max-1280:mb-[18px] max-845:mb-[20px] max-524:mb-[15px]">
@@ -130,7 +130,8 @@ export default function Hero() {
       </div>
       {/* h-600:w-[2px]
           h-600:h-[10px] */}
-      <div className='bg-[red] w-[3px]  hero-line-gsap mt-[0px] rounded-[100px] transition-all duration-500 button-hide-gsap ease-in-out max-1280:w-[1.5px]  ' >
+      <div className='bg-[red] w-[3px] h-[100px]  hero-line-gsap rounded-[100px] transition-all duration-500 button-hide-gsap ease-in-out max-1280:w-[1.5px] 
+      max-1280:h-[70px] ' >
       </div> 
       </div>
       </div>   

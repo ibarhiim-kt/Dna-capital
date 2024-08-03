@@ -75,18 +75,18 @@ export default function HealthcareExpertise() {
   }, []);   
   
   return (
-    <div className='max-w-[1600px] expertise-grayCircle-trigger mx-auto pl-[240px] expertise-h1-trigger max-1280:pl-[257px]'>
-      <div className='flex justify-between max-w-[1190px] max-1280:max-w-[790px]'>      
-      <div className='max-w-[700px] max-1280:max-w-[450px] '>
+    <div className='max-w-[1600px] expertise-grayCircle-trigger mx-auto pl-[12vw] expertise-h1-trigger max-1280:pl-[257px]'>
+      <div className='flex  max-w-[1190px] max-1280:max-w-[790px]'>      
+      <div className=' mr-[3.3vw] max-1280:max-w-[450px] '>
         <div className="overflow-y-hidden">
-        <h1 className='font-darius text-[60px] leading-[65px] text-[#c0c9df] expertise-h1-gsap max-1280:text-[38px] max-1280:leading-[47px]'>We have cultivated a unique set of expertise to enable all-around growth of healthcare bussiness</h1>
+        <h1 className='font-darius text-[3.125vw] leading-[3.54vw] max-w-[36vw] text-[#c0c9df] expertise-h1-gsap max-1280:text-[38px] max-1280:leading-[47px]'>We have cultivated a unique set of expertise to enable all-around growth of healthcare bussiness</h1>
         </div>
-        <p className='text-[25px] font-graphikLight leading-[38px] max-w-[610px] mt-[60px] text-[#c0c9df] max-1280:text-[16px] max-1280:max-w-[420px] max-1280:leading-[28px]
-         max-1280:tracking-[0.3px] max-1280:mt-[40px]'>With our capital, experienced partners, investment professionals, operators and network of advisors, we help healthcare businesses thrive.</p>
-        <p className='text-[25px] font-graphikLight leading-[38px] max-w-[610px] mt-[50px] text-[#c0c9df] max-1280:text-[16px] max-1280:max-w-[420px] max-1280:leading-[28px]
-         max-1280:tracking-[0.3px] max-1280:mt-[25px]'>We are experts in fueling the best companies that want to be the driving force of the future of healthcare.</p>
+        <p className='text-[1.25vw] font-graphikLight leading-[2.25vw] max-w-[30vw] 
+        mt-[2.6vw] text-[#c0c9df] max-1280:text-[16px] max-1280:max-w-[420px] max-1280:leading-[28px] max-1280:tracking-[0.3px] max-1280:mt-[40px]'>With our capital, experienced partners, investment professionals, operators and network of advisors, we help healthcare businesses thrive.</p>
+        <p className='text-[1.25vw] font-graphikLight leading-[2.25vw] max-w-[31vw] 
+        mt-[2.3vw] text-[#c0c9df] max-1280:text-[16px] max-1280:max-w-[420px] max-1280:leading-[28px] max-1280:tracking-[0.3px] max-1280:mt-[25px]'>We are experts in fueling the best companies that want to be the driving force of the future of healthcare.</p>
         <a href="#" className='max-w-[742px]'>
-        <p className='flex justify-end max-w-[110px] text-[18px] font-graphikLight py-[20px] border-y-[2px] mt-[70px] text-[#FFFFFF] max-1280:py-[15px] max-1280:text-[16px] max-1280:max-w-[90px] max-1280:mt-[50px]'>APPROACH</p>
+        <p className='flex justify-end max-w-[110px] text-[18px] font-graphikLight py-[20px] border-y-[2px] mt-[3.5vw] text-[#FFFFFF] max-1280:py-[15px] max-1280:text-[16px] max-1280:max-w-[90px] max-1280:mt-[50px]'>APPROACH</p>
         </a>      
       </div>
       <div className='flex flex-col items-center'>
@@ -95,7 +95,7 @@ export default function HealthcareExpertise() {
         id='grayCircleExpertise-no-trigger'></h1>
         <GrayCircle/>
         </div>
-        <p className='text-[20px] max-w-[250px] font-graphikLight text-center  mt-[25px] leading-[25px] text-[#FFFFFF80] max-1280:text-[14px] expertise-blueCircle-trigger
+        <p className='text-[1.062vw] max-w-[9vw] font-graphikLight text-center mt-[1.8vw] leading-[1.4vw] text-[#FFFFFF80] max-1280:text-[14px] expertise-blueCircle-trigger
         max-1280:tracking-[0.5px] max-1280:max-w-[180px] max-1280:leading-[20px]'>Acquisitions by our companies</p>        
         <div className='pt-[85px]'>
         <div className=' relative expertise-blueCircle-gsap'>
@@ -103,7 +103,8 @@ export default function HealthcareExpertise() {
         <BlueCircle/>
         </div>
         </div>
-        <p className='text-[20px] max-w-[250px] font-graphikLight text-center mt-[25px]  leading-[25px] text-[#FFFFFF80] max-1280:text-[14px] max-1280:tracking-[0.5px] max-1280:max-w-[180px] max-1280:leading-[20px] 
+        <p className='text-[1.062vw] max-w-[12vw] font-graphikLight text-center 
+        mt-[1.8vw]  leading-[1.4vw] text-[#FFFFFF80] max-1280:text-[14px] max-1280:tracking-[0.5px] max-1280:max-w-[180px] max-1280:leading-[20px] 
         '>Sector in which we invest</p>
       </div>
       </div>
