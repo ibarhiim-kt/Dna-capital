@@ -1,27 +1,20 @@
-.half-circle{
-  position: relative;
-}
 
-.half-circle{
-  border-image: conic-gradient(blue 0%, transparent 0%) 1; 
-}
-/* .circle-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 50vh;
-    } */
-    /* svg {
-      width: 300px;
-      height: 300px;
-    } */
-    /* .circle {
-      fill: none;
-      stroke: blue;
-      stroke-width: 5;
-      stroke-dasharray: 1000; 
-      stroke-dashoffset: 628; 
-    } */ 
+    .background{
+      background-image: url(../src/assets/background.gif);
+      background-repeat: no-repeat;
+      
+      /* background-repeat: repeat-y; */
+      /* position: fixed; */
+      /* top: 0;
+      position: absolute;
+      left: 0; */
+      background-size: contain;
+      /* background-position: center; */
+      /* background-blend-mode: hue; */
+      /* background-size: contain; */
+      /* background-size: auto;       */
+      /* background-size: cover; */
+    }
     .bb {
       stroke: #1F95DF;
       stroke-width: 4;
