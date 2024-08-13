@@ -21,7 +21,7 @@ export default function Modal() {
     </div>
     <div className='text-white flex items-center justify-end min-850:hidden absolute top-[97.8%] right-[0] 
     pr-[8.7vw] font-graphikExtralight font-semibold text-[1.75vw] max-500:text-[3.19vw] max-500:top-[95.5%] 
-    max-500:pr-[11.5vw]'>
+    max-500:pr-[11.5vw] '>
       <div className='pr-[2.3vw] tracking-[0.1vw] max-500:pr-[5vw]'>EN</div>
       <div className='tracking-[0.1vw]'>PT</div>
     </div>

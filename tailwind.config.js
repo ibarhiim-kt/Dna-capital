@@ -6,6 +6,7 @@ module.exports = {
       fontFamily:{
         // lora:['Lora','serif'],
         darius:["BwDariusDEMO-Light","serif"],
+        // dariusRegular:["BwDariusStencilDEMO-Regular","serif"],
         graphik:["Graphik-Medium-Trial","serif"],
         graphikExralight:["Graphik-Extralight-Trial","serif"]
       },
@@ -15,8 +16,12 @@ module.exports = {
         // 'max-1440': {'max': '1440px'},
         // 'max-1280': {'max': '1280px'},        
         // 'max-1024': {'max': '1024px'},
+        
+        'min-850':  {'min': '850px'},
+        'max-1950': {'max':'1950px'},
         'max-850':  {'max': '850px'},
         'max-500':  {'max': '500px'},
+       
         // 'max-647':  {'max': '647px'},
         // 'max-524':  {'max': '524px'},
         // 'max-411':  {'max': '411px'},

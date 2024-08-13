@@ -1,37 +1,76 @@
 
     .background{
       background-image: url(../src/assets/background.gif);
-      background-repeat: no-repeat;
-      
-      /* background-repeat: repeat-y; */
-      /* position: fixed; */
-      /* top: 0;
-      position: absolute;
-      left: 0; */
-      background-size: contain;
-      /* background-position: center; */
-      /* background-blend-mode: hue; */
-      /* background-size: contain; */
-      /* background-size: auto;       */
-      /* background-size: cover; */
+      background-repeat: no-repeat;    
+      background-size: contain;      
     }
-    .bb {
+   
+   .box{
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 50px;
+    background-color: red;  
+    overflow: hidden;
+    border-radius: 5px;
+   }
+   .box::before{
+    content: "";
+    width: 170%;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    /* animation: animate 2s linear infinite; */
+    rotate: -45deg;    
+   }
+   .box:hover::before{
+    animation:animate 1s linear ;
+   }
+   .box::after{        
+    content: "";
+    position: absolute;
+    inset: 3px;
+    background-color: green;
+    border-radius: 5px;
+   }
+   @keyframes animate {
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform:rotate(360deg);
+    }
+   }
+  canvas {
+      display: block;
+  }  
+  #container {  
+      width: 100vw;
+      height: 100vh;
+      position: fixed;  
+      top: 0;
+      left: 0;
+      z-index: 1;
+  }
+  .bb {
       stroke: #1F95DF;
       stroke-width: 4;
       fill: none;
-      stroke-dasharray: 0 1000;
-      
-    }
-    .path2 {
+      stroke-dasharray: 0 1000;      
+  }
+  .setOrder
+  .path2 {
       stroke: #0756CC;
       color: darkgray;
       color: rgb(47, 46, 46);
       stroke-width: 4;
       fill: none;
       stroke-dasharray: 1000 0;
-    } 
+  } 
 
-@keyframes rotateOpacity {
+  @keyframes rotateOpacity {
   0% {
     transform: rotate(0deg);
     opacity: 1;

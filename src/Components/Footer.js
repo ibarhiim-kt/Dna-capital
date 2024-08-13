@@ -34,22 +34,21 @@ export default function Footer() {
         <div className='text-[1vw] max-850:text-[1.7958vw] pl-[10.5vw] tracking-[0.1757vw] flex flex-col   max-850:tracking-[0.35vw] max-850:pl-[10vw]  max-500:text-[3.19vw] max-500:pl-0'>
             <a href="#" className='hover:text-[gray] pb-[2.1874vw] max-500:pb-[3.73vw]'>COMPANIES</a>
             <a href="#" className='hover:text-[gray] pb-[2.1874vw] max-500:pb-[3.73vw]'>CAREERS</a>
-            <a href="#" className='hover:text-[gray] max-500:pb-[14vw]'>NEWS</a> 
-            
+            <a href="#" className='hover:text-[gray] max-500:pb-[14vw]'>NEWS</a>           
         </div>
         <div className='text-[1vw] max-850:text-[1.7958vw] pl-[9.7vw] flex flex-col max-850:hidden max-500:block  max-500:text-[3.19vw] max-500:pl-0'>
           <div className='max-500:pb-[3.73vw]'>
             <a href="#" className='tracking-[0.1757vw] hover:text-[gray] pb-[2.1874vw] '>CONTACT</a>
             </div>
-            {/* <a href="#" className=' text-[25px] font-bold hover:text-[gray]  max-1280:text-[15px]'>in</a>             */}
+            {/* <a href="#" className=' text-[25px] font-bold hover:text-[gray] max-1280:text-[15px]'>in</a>      */}
             <img src={linkedin} alt="LinkedIn Icon" className='h-[8.938vw] w-[0.938vw] max-500:h-[3.94vw]  
-            max-500:w-[3.94vw]  '/>
+            max-500:w-[3.94vw]'/>
         </div>
         </div>
         <div className='flex justify-end max-w-[79.167vw] text-[0.625vw] tracking-[0.11vw] text-[gray] max-850:text-[1.46552vw] max-850:pr-[1.5vw] max-850:pb-[2.2vw] max-850:tracking-[0.25vw] 
         max-500:text-[2.66vw] max-500:flex-col max-500:tracking-[0.35vw] '>
             <a href="#" className='mr-[3.9474vw] hover:text-[#b4b1b1] transition duration-300
-              max-500:pb-[3vw]'>LEGAL AND REGULATORY INFORMATION</a>
+            max-500:pb-[3vw]'>LEGAL AND REGULATORY INFORMATION</a>
             <a href="" className='hover:text-[#b4b1b1] transition duration-300'>TERMS AND CONDITIONS</a>
         </div>
       </div>

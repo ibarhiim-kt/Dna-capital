@@ -14,8 +14,7 @@ export default function Header({isModalOpen,modalFunction}) {
         } else {
           setIsImageVisible(true);
         }
-      };
-  
+      };  
       window.addEventListener('scroll', handleScroll);  
       return () => {
         window.removeEventListener('scroll', handleScroll);
