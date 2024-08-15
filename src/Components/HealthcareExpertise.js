@@ -77,7 +77,8 @@ export default function HealthcareExpertise() {
   return (
     <div className=' expertise-grayCircle-trigger pl-[20.5vw] expertise-h1-trigger 
     max-850:max-w-[88vw] max-850:pl-0 mx-auto max-500:max-w-none'>
-      <div className='flex  max-w-[1190px] max-850:flex-col' >      
+      {/* max-w-[1190px]  */}
+      <div className='flex max-850:flex-col' >      
       <div className=' mr-[7vw] max-850:pl-[7.1vw] max-850:pb-[11vw] max-850:mr-0 
       max-500:pl-[8.3vw] max-500:pb-[18vw]'>  
         <div className="overflow-y-hidden">

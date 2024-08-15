@@ -21,17 +21,17 @@ function App() {
   return (
     <div className='bg-[hsl(240,1%,24%)] min-h-[100vh] mm'>     
       {/* <Background/> */}
-      {/* <Header isModalOpen={isModalOpen} modalFunction={modalFunction}/>  */}
-      {/* {isModalOpen && <Modal/> }
+      <Header isModalOpen={isModalOpen} modalFunction={modalFunction}/> 
+      {isModalOpen && <Modal/> }
       {!isModalOpen && <Hero/> } 
       {!isModalOpen && <HealthcareInvestor/>}
       {!isModalOpen && <HealthcareExperience/>}
       {!isModalOpen && <HealthcareExpertise/>}
       {!isModalOpen && <Investing/> }
-      {!isModalOpen && <Footer/> }    */}
+      {!isModalOpen && <Footer/> }   
       {/* {!isModalOpen && <Team/> }  */}
       {/* <Teams/> */}
-      <Approach/>
+      {/* <Approach/> */}
     </div>
   );
 }

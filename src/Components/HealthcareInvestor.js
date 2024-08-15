@@ -128,9 +128,9 @@ export default function HealthcareInvestor() {
       </div>
       {/* max-1280:text-[63px] max-1280:max-w-[330px] max-1280:leading-[80px] max-1280:pt-[45px]*/}
       <div className='max-850:pl-[7.1vw] max-500:pl-[8.3vw]'>      
-      <div className='max-w-[500px] max-1280:max-w-[26vw] overflow-hidden max-850:max-w-[31vw] max-500:max-w-[60vw]'>
+      <div className='max-w-[28vw] overflow-hidden max-850:max-w-[31vw] max-500:max-w-[60vw]'>
         <h1 className='font-darius text-[5vw] leading-[5.66vw] pt-[4.2vw] text-[#c0c9df] 
-         investor-h1-gsap max-w-[27vw] max-1280:pt-[2.8vw] max-1280:tracking-[-1px] max-850:leading-[7vw]  max-850:mb-[9.3vw] max-850:pt-0 max-850:text-[5.862vw] max-500:text-[10.66vw] max-500:leading-[12.5vw] max-500:max-w-[43vw] max-500:mb-[16.3vw]'>We are healthcare investors</h1>         
+         investor-h1-gsap max-w-[28vw] max-850:leading-[7vw]  max-850:mb-[9.3vw] max-850:pt-0 max-850:text-[5.862vw] max-500:text-[10.66vw] max-500:leading-[12.5vw] max-500:max-w-[43vw] max-500:mb-[16.3vw]'>We are healthcare investors</h1>         
       </div>
       <div className='hidden max-850:block max-850:max-w-[70vw] max-850:text-[2.199vw] max-500:max-w-[80vw] '>
       <p className='leading-[42px] text-[#c0c9df] font-graphikExtralight max-850:text-[2.199vw] max-850:leading-[3.77vw] max-850:mb-[7.1vw] max-500:leading-[6.77vw] max-500:text-[4vw] max-500:mb-[10vw]
