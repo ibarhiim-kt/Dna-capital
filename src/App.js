@@ -11,15 +11,20 @@ import Modal from './Components/Modal';
 import Background from './Components/Background';
 // import Team from './Components/Teams/Hero';
 import Teams from './Components/Teams/App';
+import OurDna from './Components/OurDna/App'
+
 import Approach from './Components/Approach/App'
 import { useState } from 'react';
+import Cursor from './Components/Cursor';
+
 function App() {
   const[isModalOpen, setIsModalOpen] = useState();
   const modalFunction=()=>{
     setIsModalOpen(!isModalOpen);
   }
   return (
-    <div className='bg-[hsl(240,1%,24%)] min-h-[100vh] mm'>     
+    <div className='bg-[hsl(240,1%,24%)] min-h-[100vh] mm'>  
+    {/* <Cursor/> */}
       {/* <Background/> */}
       <Header isModalOpen={isModalOpen} modalFunction={modalFunction}/> 
       {isModalOpen && <Modal/> }
@@ -29,9 +34,10 @@ function App() {
       {!isModalOpen && <HealthcareExpertise/>}
       {!isModalOpen && <Investing/> }
       {!isModalOpen && <Footer/> }   
-      {/* {!isModalOpen && <Team/> }  */}
+      
       {/* <Teams/> */}
       {/* <Approach/> */}
+      {/* <OurDna/> */}
     </div>
   );
 }

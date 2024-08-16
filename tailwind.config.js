@@ -6,6 +6,7 @@ module.exports = {
       fontFamily:{
         // lora:['Lora','serif'],
         darius:["BwDariusDEMO-Light","serif"],
+        dariusLight:["BwDariusStencilDEMO-Light","serif"],
         // dariusRegular:["BwDariusStencilDEMO-Regular","serif"],
         graphik:["Graphik-Medium-Trial","serif"],
         graphikExralight:["Graphik-Extralight-Trial","serif"]
