@@ -24,7 +24,7 @@ function App() {
   }
   return (
     <div className='bg-[hsl(240,1%,24%)] min-h-[100vh] mm'>  
-    {/* <Cursor/> */}
+    <Cursor/>
       {/* <Background/> */}
       <Header isModalOpen={isModalOpen} modalFunction={modalFunction}/> 
       {isModalOpen && <Modal/> }
